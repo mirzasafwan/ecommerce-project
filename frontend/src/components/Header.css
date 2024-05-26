@@ -1,0 +1,142 @@
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .search-box {
+    position: relative;
+    display: inline-block;
+  }
+
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    outline: none;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    padding-top: 13px;
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+    cursor: pointer;
+
+  }
+  
+  .icons {
+    display: flex;
+    padding-right: 10px;
+  }
+  
+  .icons div {
+    margin-left: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .menu-icon {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  .cart-icon{
+    display: flex;
+  }
+  .cart-icon{
+    align-items: center;
+}
+  .cart-count p{
+    font-size: 15px;
+}
+.cart-count span{
+    font-size: 15px;
+}
+.wishlist-icon{
+    display: flex;
+    align-items: center;
+   
+}
+.wish-count{
+    align-items: center;
+    padding-top: 10px;
+}
+ .wishlist-icon p{
+    font-size: 15px;
+ }
+  
+
+
+  @media (max-width: 768px) {
+    .nav-list {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+    }
+  
+    .cart-count p{
+        font-size: 12px;
+    }
+    .cart-count span{
+        font-size: 12px;
+    }
+    .wishlist-icon p{
+        font-size: 12px;
+     }
+    .cart-icon{
+        align-items: center;
+    }
+    .nav-list.show {
+      display: flex;
+    }
+  
+    .nav-list li {
+      margin: 10px 0;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+    .mobile{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+  }
+  
+   
+
+

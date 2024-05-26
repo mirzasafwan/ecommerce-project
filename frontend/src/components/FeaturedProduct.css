@@ -1,0 +1,23 @@
+
+   .title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /* .card-img-top-featured{
+    width: 280px;
+  } */
+  .carousel{
+    margin-bottom: 20px;
+  }
+  .feature-banner img{
+    width: 100%;
+    height: 400px;
+    padding-top: 25px;
+  }
+  .carousel-container{
+    position: relative; /* Ensure proper positioning */
+    z-index: 0;
+  }

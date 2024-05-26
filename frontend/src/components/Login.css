@@ -1,0 +1,145 @@
+.login-container-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    background-color: rgb(153, 106, 106); /* Add opacity to make text readable */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center; /* Center align contents */
+    margin: auto; /* Center the card horizontally */
+    color: white;
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: thistle;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Left-align input labels */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  .error{
+    color: red;
+    margin-top: 0px;
+    margin-top: -10px;
+    text-align: start;
+  }
+  
+  .submit-login  {
+    background-color: #161d24;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .submit-signup{
+    background-color: #161d24;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .btn-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .submit-login:hover {
+    background-color: rgb(225, 216, 216);
+    color: black;
+  }
+  .submit-signup:hover{
+    background-color: rgb(225, 216, 216);
+    color: black;
+  }
+  /* Existing styles */
+
+
+  
+  .or-text {
+    text-align: center;
+    /* margin: 20px 0; */
+    color: #fff; 
+  }
+  
+ 
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  /* Additional styles for the eye icon */
+  .password-toggle-icon svg {
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  .forgot-password{
+    text-align: end;
+    text-decoration: underline;
+  }
+  @media screen and (max-width:496px) {
+    .social-login-options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 7px;
+    }
+    .google-login{
+        width: 100%;
+    }
+    .facebook-login{
+        width: 100%;
+    }
+    .twitter-login{
+        width: 100%;
+    }
+  }
+  .fade-link {
+    transition: opacity 0.3s ease;
+  }
+  
+  .fade-link:hover {
+    opacity: 0.7;
+  }
+  

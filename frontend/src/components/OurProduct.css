@@ -1,0 +1,108 @@
+h6{
+    font-size: 12px;
+    padding-top: 8px;
+    color: gray;
+}
+h5{
+    /* color: black; */
+    font-size: 18px;
+    color: rgb(153, 106, 106) !important;
+}
+.wishlist-icon{
+    font-size: 24px;
+}
+.card-img-top-our-product{
+  height: 180px;
+  width: 100%;
+  border-radius: 5px;
+}
+.form-parent{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+/* Custom styling for select dropdown */
+/* Styling for the dropdown select */
+.dropdwon-sort {
+    width: 100%;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    appearance: none;
+    cursor: pointer;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out ;
+}
+
+
+.dropdwon-sort .option {
+    color: #495057;
+    background-color: #fff;
+    padding: 7px;
+}
+.main-card-sort{
+    padding: 0px;
+}
+
+
+/* Hover effect for options */
+.dropdwon-sort option:hover {
+    background-color: #f8f9fa;
+}
+/* OurProduct.css */
+
+/* .container {
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    animation: backgroundAnimation 10s infinite alternate;
+  } */
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    }
+    50% {
+      background: linear-gradient(to bottom, #f2f2f2, #ffffff);
+    }
+    100% {
+      background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    }
+  }
+  
+  .our-product-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .our-product-card:hover {
+    transform: scale(1.05);
+  }
+  .wishlist-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .our-product-title{
+    letter-spacing: 2px;
+    color: rgb(153, 106, 106);
+  }
+  
+  .wishlist-text {
+    margin-right: 10px;
+    font-size: 14px;
+    opacity: 0; /* Hide the text by default */
+    transition: opacity 0.3s ease; /* Add transition effect */
+  }
+  
+  .wishlist-container:hover .wishlist-text {
+    opacity: 1; /* Show the text on hover */
+  }
+  
+  
+  
