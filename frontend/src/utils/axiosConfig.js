@@ -1,5 +1,5 @@
 
-export const base_url = `${window.location.origin}/api/`
+export const base_url = `https://ecommerce-backend-two-ivory.vercel.app/api/`
 
 const getTokenFromLocalStorage = localStorage.getItem("customer")
   ? JSON.parse(localStorage.getItem("customer"))
